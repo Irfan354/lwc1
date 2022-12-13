@@ -1,0 +1,19 @@
+    <template>
+
+        <lightning-card title="Two way binding...">
+            <div class="slds-var-m-around_medium lgc-bg">
+                <lightning-input type="text" label="Enter some text" onkeyup={changeHandler}></lightning-input>
+                <div> The Course {name} is {title}</div>
+            </div> 
+        </lightning-card>
+
+        <lightning-card title="track property">
+            <div class="slds-var-m-around_medium lgc-bg">
+                <lightning-input type="text" label="Enter some text" onkeyup={trackHandler}></lightning-input>
+                <div> The institute locted in {detail.city} and code is {detail.code}</div>
+            </div> 
+        </lightning-card>
+
+
+
+    </template>
